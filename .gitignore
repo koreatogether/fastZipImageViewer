@@ -1,0 +1,45 @@
+# Editor and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Build and packaging outputs
+target/
+build/
+dist/
+out/
+release/
+debug/
+bin/
+obj/
+
+# Rust-specific
+Cargo.lock
+
+# Local binaries and generated artifacts
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.manifest
+*.map
+
+# Archives and caches
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+cache/
+temp/
+tmp/
