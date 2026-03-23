@@ -4,6 +4,11 @@
 Canon CR3 RAW 파일 지원 및 AF 포인트 오버레이 기능 포함.
 
 ---
+## 바이러스 체크 한곳
+https://www.virustotal.com/gui/file/ebc0e5773b6fc10afe4e20ea490560c127fc86557a6b58468774a9e973879559?nocache=1
+
+ebc0e5773b6fc10afe4e20ea490560c127fc86557a6b58468774a9e973879559
+fast-image-viewer.exe
 
 ## 목차
 
