@@ -78,6 +78,20 @@ fast-image-viewer_v7.exe
 1. 실행 파일을 더블클릭하거나 터미널에서 위 명령 실행
 2. 환영 화면에서 `O` 키를 눌러 ZIP/CBZ 파일 선택, 또는 파일을 창에 드래그 앤 드롭
 3. `←` / `→` 방향키로 이미지 탐색
+4. 배포 파일 무결성 확인이 필요하면 같은 폴더의 `fast-image-viewer_v7.sha256` 파일을 확인
+
+```
+Get-FileHash .\fast-image-viewer_v7.exe -Algorithm SHA256
+```
+
+위 결과가 체크섬 파일 내용과 같으면 파일 무결성이 일치합니다.
+
+### SHA256 체크섬 확인 방법
+
+1. `fast-image-viewer_v7.exe`와 `fast-image-viewer_v7.sha256` 파일을 같은 폴더에 둡니다.
+2. PowerShell에서 `Get-FileHash .\fast-image-viewer_v7.exe -Algorithm SHA256`를 실행합니다.
+3. 출력된 SHA256 값이 `fast-image-viewer_v7.sha256` 파일의 값과 같은지 비교합니다.
+4. 값이 같으면 파일이 원본과 동일하다고 볼 수 있고, 다르면 파일이 바뀌었거나 손상된 것입니다.
 
 
 ---
